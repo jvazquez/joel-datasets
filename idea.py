@@ -7,11 +7,11 @@ dataset = [
 ]
 
 
-def run() -> Dict:
+def run(df) -> Dict:
     accumulator = {}
 
     for value in df:
-        print(df)
+        print(value)
     # for _id, city_name in dataset:
     #     if city_name not in accumulator.keys():
     #         accumulator[city_name] = [_id]
