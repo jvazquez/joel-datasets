@@ -55,7 +55,6 @@ if __name__ == "__main__":
 
     print("All files opened, now you have a listing of "
           f"{len(different_data)} files condensed")
-    print()
     """
     different_data contains a List of Dictionaries that contain a string and
     a set
